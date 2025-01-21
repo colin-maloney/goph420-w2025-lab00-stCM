@@ -66,4 +66,21 @@ def subtract(x, y):
     int or float or array_like
     The difference of x and y.
     """
-    return x - y 
+    return x - y
+
+def modulo(x, y):
+    """Returns the remainder of x divided by y.
+
+    Parameters
+    ----------
+    x : int or float or array_like
+        The first number to divide.
+    y : int or float or array_like
+        The second number to divide.
+
+    Returns
+    -------
+    int or float or array_like
+    The remainder of x divided by y.
+    """
+    return x % y == 0
