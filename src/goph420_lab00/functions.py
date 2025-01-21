@@ -32,6 +32,23 @@ def multiply(x, y):
     int or float or array_like
     The (element-wise) product of x and y.
     """
-    return x * y 
+    return x * y  
+
+def divide(x, y):
+    """Divide two numbers or arrays.
+    
+    Parameters
+    ----------
+    x : int or float or array_like
+        The first number to divide.
+    y : int or float or array_like
+        The second number to divide.
+    
+    Returns
+    -------
+    int or float or array_like
+    The quotient of x and y.
+    """
+    return x / y
 
 
