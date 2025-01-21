@@ -1,7 +1,9 @@
 import numpy as np
 from goph420_lab00 import (
 add, 
-multiply,  
+multiply,
+subtract,
+divide,
 )
 
 def main():
@@ -13,6 +15,8 @@ def main():
     print(f'B:\n{B}')
     print(f'add(A, B):\n{add(A, B)}')
     print(f'multiply(A, B):\n{multiply(A, B)}')
+    print(f'subtract(A, B):\n{subtract(A, B)}')
+    print(f'divide(A, B):\n{divide(A, B)}')
 
 if __name__ == '__main__':
     main()
