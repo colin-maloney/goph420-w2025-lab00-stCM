@@ -51,4 +51,19 @@ def divide(x, y):
     """
     return x / y
 
-
+def subtract(x, y):
+    """Add two numbers or arrays.
+    
+    Parameters
+    ----------
+    x : int or float or array_like
+        The first number to subract.
+    y : int or float or array_like
+        The second number to subtract.
+    
+    Returns
+    -------
+    int or float or array_like
+    The difference of x and y.
+    """
+    return x - y 
