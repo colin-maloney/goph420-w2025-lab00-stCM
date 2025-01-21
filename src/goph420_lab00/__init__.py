@@ -1,4 +1,6 @@
 from .functions import ( 
 add, 
-multiply, 
+multiply,
+divide,
+subtract
 )
